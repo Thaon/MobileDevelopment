@@ -220,7 +220,7 @@ class AsteroidGenerator extends GameObject //this class is responsible both for 
 		super(name, x, y, imageSRC, velx, vely);
 
 		this.timer = 0;
-		this.spawnTime = RandomRange(90, 150); //between 1.5 seconds and 3.5 (considering the game runs at 60fps)
+		this.spawnTime = RandomRange(90, 150); //between 1.5 seconds and 2.5 (considering the game runs at 60fps)
 	}
 
 	Start()

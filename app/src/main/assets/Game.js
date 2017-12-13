@@ -182,8 +182,8 @@ function collisionDetection() //simple AABB collision check that notifies collid
 	{
 	var coll1 = scene[i];
 	for (var j = i; j < scene.length; j++)
-		var coll2 = scene[j];
 		{
+			var coll2 = scene[j];
 			//check for AABB collisions
 			if (coll1.x + coll1.sImage.width > coll2.x && coll1.y + coll1.sImage.height > coll2.y && coll1.x < coll2.x + coll2.sImage.width && coll1.y < coll2.y + coll2.sImage.height)
 			{
